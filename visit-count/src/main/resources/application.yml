@@ -1,12 +1,15 @@
 spring:
   datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/db_redis_usecase
-    username: mysql
-    password: mysql
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
   data:
     redis:
       host: 127.0.0.1
       port: 6379
+  h2:
+    console:
+      enabled: true
 mybatis:
   type-aliases-package: com.example.visitcount.entity
