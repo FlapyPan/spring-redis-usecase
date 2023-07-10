@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/db_redis_usecase
+    username: mysql
+    password: mysql
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+mybatis:
+  type-aliases-package: com.example.visitcount.entity
