@@ -13,3 +13,7 @@ Spring Boot 结合 Redis 的一些案例
 - Redis
 - Mybatis
 - AspectJ
+
+## leader-board
+
+Redis zset 实现简单的排行榜功能
