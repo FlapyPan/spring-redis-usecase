@@ -17,3 +17,13 @@ Spring Boot 结合 Redis 的一些案例
 ## leader-board
 
 Redis zset 实现简单的排行榜功能
+
+- Redis
+- Mybatis
+
+## request-throttling
+
+基于注解使用 redis 实现方法级 IP 地址限流
+
+- Redis
+- AspectJ
