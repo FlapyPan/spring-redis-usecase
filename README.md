@@ -27,3 +27,11 @@ Redis zset 实现简单的排行榜功能
 
 - Redis
 - AspectJ
+
+## share-session
+
+Spring Session 结合 Redis 的简单案例
+
+- Redis
+- Spring Session
+- Jackson
