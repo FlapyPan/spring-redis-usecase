@@ -8,7 +8,7 @@ Spring Boot 结合 Redis 的一些案例
 
 ## visit-count
 
-使用 redis 统计总体访问数量，并定时持久化到数据库中
+使用 Redis 统计总体访问数量，并定时持久化到数据库中
 
 - Redis
 - Mybatis
@@ -23,7 +23,7 @@ Redis zset 实现简单的排行榜功能
 
 ## request-throttling
 
-基于注解使用 redis 实现方法级 IP 地址限流
+基于注解使用 Redis 实现方法级 IP 地址限流
 
 - Redis
 - AspectJ
@@ -34,4 +34,14 @@ Spring Session 结合 Redis 的简单案例
 
 - Redis
 - Spring Session
+- Jackson
+
+## spring-cache
+
+Spring Cache 结合 Redis 的基本配置并使用 Jackson 序列化
+
+RedisTemplate 配置 Jackson 序列化
+
+- Redis
+- Spring Cache
 - Jackson
