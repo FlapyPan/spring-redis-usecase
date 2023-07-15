@@ -1,0 +1,5 @@
+spring:
+  data:
+    redis:
+      redisson:
+        file: classpath:redisson.yml

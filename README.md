@@ -45,3 +45,10 @@ RedisTemplate 配置 Jackson 序列化
 - Redis
 - Spring Cache
 - Jackson
+
+## redisson-lock
+
+Spring Boot 结合 Redisson 的单机配置和使用
+
+- Redis
+- Redisson
